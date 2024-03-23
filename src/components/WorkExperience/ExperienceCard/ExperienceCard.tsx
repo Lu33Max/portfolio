@@ -35,7 +35,7 @@ const ExperienceCard = ({details}: Details) => {
         <a className='text-[#9678ff] hover:text-[#b7a3ff] transition-colors duration-300' href={`/projects/${details.title.toLowerCase().replaceAll(" ","")}`}><u>Learn More</u></a>
       </div>
       <div className='p-2 border-2 border-[#6751b9] rounded-2xl'>
-        <Image src={details.picture} alt={details.title} width={1280} height={720} className='w-full h-auto rounded-xl'/>
+        <Image src={details.picture} alt={details.title} width={854} height={480} className='w-full h-auto rounded-xl'/>
       </div>
       <div className='flex flex-row justify-center items-center max-lg:gap-2 gap-6 mt-2'>
         {details.skills.map(skill => (
