@@ -20,13 +20,13 @@ const Hero = () => {
         </div>
         <div className='flex items-end gap-4 sm:gap-8 ml-8 max-md:justify-center'>
           <div className='tech-icon w-[3.3rem] sm:w-16 lg:w-20 h-[3.3rem] sm:h-16 lg:h-20 flex items-center justify-center text-center rounded-xl border border-solid border-[#6852ba]'>
-            <Image src={"/../assets/images/unreal_engine_logo.png"} alt="" width={50} height={50} className='w-10 lg:w-12 h-auto transition-all ease-in-out hover:translate-y-[-0.5rem]'/>
+            <Image src={"/assets/images/unreal_engine_logo.png"} alt="" width={50} height={50} className='w-10 lg:w-12 h-auto transition-all ease-in-out hover:translate-y-[-0.5rem]'/>
           </div>
           <div className='tech-icon w-[3.3rem] sm:w-16 lg:w-20 h-[3.3rem] sm:h-16 lg:h-20 flex items-center justify-center text-center rounded-xl border border-solid border-[#6852ba]'>
-            <Image src={"/../assets/images/CSharp_logo.png"} alt="" width={50} height={50} className='w-10 lg:w-12 h-auto transition-all ease-in-out hover:translate-y-[-0.5rem]'/>
+            <Image src={"/assets/images/CSharp_logo.png"} alt="" width={50} height={50} className='w-10 lg:w-12 h-auto transition-all ease-in-out hover:translate-y-[-0.5rem]'/>
           </div>
           <div className='tech-icon w-[3.3rem] sm:w-16 lg:w-20 h-[3.3rem] sm:h-16 lg:h-20 flex items-center justify-center text-center rounded-xl border border-solid border-[#6852ba]'>
-            <Image src={"/../assets/images/TypeScript_logo.png"} alt="" width={50} height={50} className='w-10 lg:w-12 h-auto transition-all ease-in-out hover:translate-y-[-0.5rem]'/>
+            <Image src={"/assets/images/TypeScript_logo.png"} alt="" width={50} height={50} className='w-10 lg:w-12 h-auto transition-all ease-in-out hover:translate-y-[-0.5rem]'/>
           </div>
         </div>
       </div>
