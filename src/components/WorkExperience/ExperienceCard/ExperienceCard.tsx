@@ -19,20 +19,20 @@ const ExperienceCard = ({details}: Details) => {
     <div className='work-experience-card max-md:m-0 bg-[#130f2a] rounded-xl border-solid border-2 border-[#6751b9] py-6 px-10 mx-4'>
       <div className='flex justify-between items-center'>
         <div>
-          <h6 className='text-[1.05rem] 2xl:text-2xl font-semibold mb-3'>{details.title}</h6>
-          <div className='work-duration inline-block text-xs 2xl:text-lg font-normal bg-[#6751b980] rounded-md py-2 px-3 mb-5'>
+          <h6 className='text-[1.05rem] min-[2000px]:text-2xl font-semibold mb-3'>{details.title}</h6>
+          <div className='work-duration inline-block text-xs min-[2000px]:text-lg font-normal bg-[#6751b980] rounded-md py-2 px-3 mb-5'>
             {details.date}
           </div>
         </div>
         {details.link}
       </div>
-      <ul className='list-none text-[0.9rem] 2xl:text-xl font-normal mb-4'>
+      <ul className='list-none text-[0.9rem] min-[2000px]:text-xl font-normal mb-4'>
         {details.responsibilities.map(res => (
           <li key={res} className='relative after:content-[" "] after:w-2 after:h-2 after:bg-[#6751b9] after:rounded-lg after:absolute after:left-[-1.3rem] after:top-[0.30rem]'>{res}</li>
         ))}
       </ul>
       <div className='mb-4'>
-        <a className='text-[#9678ff] hover:text-[#b7a3ff] 2xl:text-xl transition-colors duration-300' href={`/projects/${details.title.toLowerCase().replaceAll(" ","")}`}><u>Learn More</u></a>
+        <a className='text-[#9678ff] hover:text-[#b7a3ff] min-[2000px]:text-xl transition-colors duration-300' href={`/projects/${details.title.toLowerCase().replaceAll(" ","")}`}><u>Learn More</u></a>
       </div>
       <div className='p-2 border-2 border-[#6751b9] rounded-2xl'>
         <Image src={details.picture} alt={details.title} width={854} height={480} className='w-full h-auto rounded-xl'/>

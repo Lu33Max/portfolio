@@ -13,11 +13,11 @@ export default function TwistedRealms()  {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <>
-        <h2 className='text-center md:text-left 2xl:text-8xl sm:text-5xl text-4xl lg:text-6xl font-semibold leading-[3rem] sm:leading-[4rem] lg:leading-[5rem] mt-12 md:mt-0 mb-4'>Twisted Realms</h2>
-        <h5 className='text-2xl font-semibold mb-12 max-md:text-xl max-md:mb-8 2xl:text-4xl'>The Project</h5>
+        <h2 className='text-center md:text-left min-[2000px]:text-8xl sm:text-5xl text-4xl lg:text-6xl font-semibold leading-[3rem] sm:leading-[4rem] lg:leading-[5rem] mt-12 md:mt-0 mb-4'>Twisted Realms</h2>
+        <h5 className='text-2xl font-semibold mb-12 max-md:text-xl max-md:mb-8 min-[2000px]:text-4xl'>The Project</h5>
         <Highlight/>
-        <div className='mx-8 max-sm:mx-0 text-justify 2xl:text-[1.5rem]'>
-          <p className='mb-4 xl:hidden 2xl:block'>
+        <div className='mx-8 max-sm:mx-0 text-justify min-[2000px]:text-[1.5rem]'>
+          <p className='mb-4 xl:hidden min-[2000px]:block'>
             Defeat monsters, collect items, and strengthen your characters to prevail in a battle for the future of the world against the Omen and its followers. Each player takes on the 
             role of a hunter to infiltrate the castle at the centre of the game and defeat the Omen once and for all. Fight your way through procedurally generated battlegrounds against 
             both evil forces and your competitors, claiming all the glory (and gold) for yourself. But beware: if your internal power struggle lasts too long, it could mean the end for 
@@ -25,7 +25,7 @@ export default function TwistedRealms()  {
           </p>
           <div className='flex items-center max-md:flex-col gap-4'>
             <div>
-              <p className='mb-4 max-xl:hidden 2xl:hidden'>
+              <p className='mb-4 max-xl:hidden min-[2000px]:hidden'>
                 Defeat monsters, collect items, and strengthen your characters to prevail in a battle for the future of the world against the Omen and its followers. Each player takes on the 
                 role of a hunter to infiltrate the castle at the centre of the game and defeat the Omen once and for all. Fight your way through procedurally generated battlegrounds against 
                 both evil forces and your competitors, claiming all the glory (and gold) for yourself. But beware: if your internal power struggle lasts too long, it could mean the end for 
@@ -42,15 +42,15 @@ export default function TwistedRealms()  {
             </div>
           </div>
         </div>
-        <h5 className='text-2xl font-semibold my-12 max-md:text-xl max-md:my-8 2xl:text-4xl'>My Role</h5>
-        <div className='mx-8 max-sm:mx-0 text-justify 2xl:text-[1.5rem]'>
+        <h5 className='text-2xl font-semibold my-12 max-md:text-xl max-md:my-8 min-[2000px]:text-4xl'>My Role</h5>
+        <div className='mx-8 max-sm:mx-0 text-justify min-[2000px]:text-[1.5rem]'>
           <p className='mb-4'>
             My roles within the team primarily consist of game design and the role of Technical Lead. As a game designer, my initial task was to update the outdated game design document 
             to our current knowledge in the game development process. Even in the original version of the game concept, some weaknesses were identified through playtests and feedback 
             from our supervisors, but due to time constraints or lack of know-how, they were never addressed until completion. Using old notes and records, numerous mechanics, 
             particularly related to the combat system, were overhauled to create a much more cohesive overall picture.
           </p>
-          <p className='mb-4 xl:hidden 2xl:block'>
+          <p className='mb-4 xl:hidden min-[2000px]:block'>
             In the second step, as Technical Lead, it is now my responsibility to implement previously defined game mechanics in the engine. Since this project is an opportunity for all 
             of us on the team to learn and expand our skills, we chose the Unreal Engine for implementation, with which I personally had limited experience until then.
           </p>
@@ -59,7 +59,7 @@ export default function TwistedRealms()  {
               <Image src={'/assets/projects/TwistedRealmsGif.gif'} alt='TwistedRealms2' width={600} height={350} className='rounded-lg'/>
             </div>
             <div>
-              <p className='mb-4 max-xl:hidden 2xl:hidden'>
+              <p className='mb-4 max-xl:hidden min-[2000px]:hidden'>
                 In the second step, as Technical Lead, it is now my responsibility to implement previously defined game mechanics in the engine. Since this project is an opportunity for all 
                 of us on the team to learn and expand our skills, we chose the Unreal Engine for implementation, with which I personally had limited experience until then.
               </p>
@@ -72,8 +72,8 @@ export default function TwistedRealms()  {
             </div>
           </div>
         </div>
-        <h5 className='text-2xl font-semibold my-12 max-md:text-xl max-md:my-8 2xl:text-4xl'>Learned Skills</h5>
-        <div className='mx-8 max-sm:mx-0 2xl:text-[1.5rem]'>
+        <h5 className='text-2xl font-semibold my-12 max-md:text-xl max-md:my-8 min-[2000px]:text-4xl'>Learned Skills</h5>
+        <div className='mx-8 max-sm:mx-0 min-[2000px]:text-[1.5rem]'>
           <ul className='list-none mb-8 ml-5'>
             <ListItem style='mb-1'>Identifying and addressing issues in existing game concepts</ListItem>
             <ListItem style='mb-1'>Independent work and organization within a team</ListItem>
@@ -84,7 +84,7 @@ export default function TwistedRealms()  {
           </ul>
         </div>
         <hr/>
-        <p className='mt-2 mb-4 2xl:text-[1.5rem]'>
+        <p className='mt-2 mb-4 min-[2000px]:text-[1.5rem]'>
           <b>Download the Game Design Document <a title="Game Design Document" download href="\assets\documents\Twisted_Realms_GDD.pdf" className='text-[#9678ff] hover:text-[#b7a3ff] transition-colors duration-300'><u>here</u></a>.</b> &#40;German only&#41;
         </p>
       </>

@@ -13,10 +13,10 @@ export default function Echolight()  {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <>
-        <h2 className='text-center md:text-left 2xl:text-8xl sm:text-5xl text-4xl lg:text-6xl font-semibold leading-[3rem] sm:leading-[4rem] lg:leading-[5rem] mt-12 md:mt-0 md:mb-[1rem]'>Echolight</h2>
-        <h5 className='text-2xl font-semibold mb-12 max-md:text-xl max-md:mb-8 2xl:text-4xl'>The Project</h5>
+        <h2 className='text-center md:text-left min-[2000px]:text-8xl sm:text-5xl text-4xl lg:text-6xl font-semibold leading-[3rem] sm:leading-[4rem] lg:leading-[5rem] mt-12 md:mt-0 md:mb-[1rem]'>Echolight</h2>
+        <h5 className='text-2xl font-semibold mb-12 max-md:text-xl max-md:mb-8 min-[2000px]:text-4xl'>The Project</h5>
         <Highlight/>
-        <div className='mx-8 max-sm:mx-0 text-justify 2xl:text-[1.5rem]'>
+        <div className='mx-8 max-sm:mx-0 text-justify min-[2000px]:text-[1.5rem]'>
           <div className='flex items-center max-md:flex-col gap-4'>
             <p>
               Echolight is an action-based roguelike game where you play as Áine, a princess from an ancient clan, trying to restore the power of the fallen gods of day and night, whose 
@@ -29,8 +29,8 @@ export default function Echolight()  {
             </div>
           </div>
         </div>
-        <h5 className='text-2xl font-semibold my-12 max-md:text-xl max-md:my-8 2xl:text-4xl'>My Role</h5>
-        <div className='mx-8 max-sm:mx-0 text-justify 2xl:text-[1.5rem]'>
+        <h5 className='text-2xl font-semibold my-12 max-md:text-xl max-md:my-8 min-[2000px]:text-4xl'>My Role</h5>
+        <div className='mx-8 max-sm:mx-0 text-justify min-[2000px]:text-[1.5rem]'>
           <p className='mb-4'>
             As part of the six-person game design team, my main responsibilities included developing concepts for the basic gameplay experience and specific mechanics, regularly 
             documenting new decisions within the game design document, and especially conveying our vision to other teams. The latter quickly proved to be the most significant task. 
@@ -58,8 +58,8 @@ export default function Echolight()  {
             </p>
           </div>
         </div>
-        <h5 className='text-2xl font-semibold my-12 max-md:text-xl max-md:my-8 2xl:text-4xl'>Learned Skills</h5>
-        <div className='mx-8 max-sm:mx-0 2xl:text-[1.5rem]'>
+        <h5 className='text-2xl font-semibold my-12 max-md:text-xl max-md:my-8 min-[2000px]:text-4xl'>Learned Skills</h5>
+        <div className='mx-8 max-sm:mx-0 min-[2000px]:text-[1.5rem]'>
           <ul className='list-none mb-8 ml-5'>
             <ListItem style='mb-1'>Making and justifying decisions based on the essence of the game</ListItem>
             <ListItem style='mb-1'>Structured documentation and dissemination of work results</ListItem>
@@ -70,7 +70,7 @@ export default function Echolight()  {
           </ul>
         </div>
         <hr/>
-        <p className='mt-2 mb-4 2xl:text-[1.5rem]'>
+        <p className='mt-2 mb-4 min-[2000px]:text-[1.5rem]'>
           <b>View the project over on <a href="https://store.steampowered.com/app/2679520/Echolight/" title="Echolight on Steam" target='_blank' className='text-[#9678ff] hover:text-[#b7a3ff] transition-colors duration-300'><u>Steam</u></a>.</b>
         </p>
       </>
