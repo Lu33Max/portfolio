@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
-import Highlight from '~/components/highlight'
+import ListItem from '~/components/Utilities/ListItem'
+import Highlight from '~/components/Utilities/highlight'
 
 export default function Avalken()  {
   return (
@@ -11,10 +12,10 @@ export default function Avalken()  {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <>  
-        <h2 className='text-center md:text-left sm:text-5xl text-4xl lg:text-6xl font-semibold leading-[3rem] sm:leading-[4rem] lg:leading-[5rem] mt-12 md:mt-0 md:mb-[1rem]'>Avalken</h2>
-        <h5 className='text-2xl font-semibold mb-12 max-md:text-xl max-md:mb-8'>The Project</h5>
+        <h2 className='text-center md:text-left 2xl:text-8xl sm:text-5xl text-4xl lg:text-6xl font-semibold leading-[3rem] sm:leading-[4rem] lg:leading-[5rem] mt-12 md:mt-0 md:mb-[1rem]'>Avalken</h2>
+        <h5 className='text-2xl font-semibold mb-12 max-md:text-xl max-md:mb-8 2xl:text-4xl'>The Project</h5>
         <Highlight/>
-        <div className='mx-8'>
+        <div className='mx-8 max-sm:mx-0 text-justify 2xl:text-[1.5rem]'>
           <p className='mb-4'>
             The game is a 2D action-adventure in a top-down perspective with real-time combat system like the older 2D &quot;The Legend of Zelda&quot; games, with additional role-playing 
             elements such as a levelling system and stats. The world is set in a medieval fantasy era and designed in a pixel art style.
@@ -32,16 +33,16 @@ export default function Avalken()  {
             continually surpass their best time.
           </p>
         </div>
-        <h5 className='text-2xl font-semibold my-12 max-md:text-xl max-md:my-8'>Learned Skills</h5>
-        <div className='mx-8'>
-          <ul className='list-disc list-inside mb-8'>
-            <li className='mb-1'>General fundamentals of programming with Java</li>
-            <li className='mb-1'>Basics of game development with Java</li>
-            <li className='mb-1'>Expansion of knowledge on basic programming paradigms (inheritance, polymorphism, streams, etc.)</li>
+        <h5 className='text-2xl font-semibold my-12 max-md:text-xl max-md:my-8 2xl:text-4xl'>Learned Skills</h5>
+        <div className='mx-8 max-sm:mx-0 2xl:text-[1.5rem]'>
+          <ul className='list-none mb-8 ml-5'>
+            <ListItem style='mb-1'>General fundamentals of programming with Java</ListItem>
+            <ListItem style='mb-1'>Basics of game development with Java</ListItem>
+            <ListItem style='mb-1'>Expansion of knowledge on basic programming paradigms (inheritance, polymorphism, streams, etc.)</ListItem>
           </ul>
         </div>
         <hr/>
-        <p className='mt-2 mb-4'>
+        <p className='mt-2 mb-4 2xl:text-[1.5rem]'>
           <b>Access the source code over on <a href='https://github.com/Lu33Max/avalken' title='Avalken on GitHub' target='_blank' className='text-[#9678ff] hover:text-[#b7a3ff] transition-colors duration-300'><u>GitHub</u></a>.</b>
         </p>
       </>

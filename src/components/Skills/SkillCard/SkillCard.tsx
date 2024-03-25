@@ -13,7 +13,7 @@ const SkillCard = ({ title, icon, isActive, onClick }: SkillCardArgs) => {
       <div className='skill-icon max-lg:w-12 max-lg:h-12 w-16 h-16 flex items-center justify-center bg-[#2a2252] rounded-xl border-2 border-solid border-[#6852ba] absolute -top-4 -left-4'>
         {icon}
       </div>
-      <span className='text-xl font-medium max-lg:text-base text-nowrap'>{title}</span>
+      <span className='text-xl 2xl:text-3xl font-medium max-lg:text-base text-nowrap'>{title}</span>
     </div>
   )
 }

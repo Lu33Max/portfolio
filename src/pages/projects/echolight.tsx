@@ -1,6 +1,8 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import React from 'react'
-import Highlight from '~/components/highlight'
+import ListItem from '~/components/Utilities/ListItem'
+import Highlight from '~/components/Utilities/highlight'
 
 export default function Echolight()  {
   return (
@@ -11,19 +13,24 @@ export default function Echolight()  {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <>
-        <h2 className='text-center md:text-left sm:text-5xl text-4xl lg:text-6xl font-semibold leading-[3rem] sm:leading-[4rem] lg:leading-[5rem] mt-12 md:mt-0 md:mb-[1rem]'>Echolight</h2>
-        <h5 className='text-2xl font-semibold mb-12 max-md:text-xl max-md:mb-8'>The Project</h5>
+        <h2 className='text-center md:text-left 2xl:text-8xl sm:text-5xl text-4xl lg:text-6xl font-semibold leading-[3rem] sm:leading-[4rem] lg:leading-[5rem] mt-12 md:mt-0 md:mb-[1rem]'>Echolight</h2>
+        <h5 className='text-2xl font-semibold mb-12 max-md:text-xl max-md:mb-8 2xl:text-4xl'>The Project</h5>
         <Highlight/>
-        <div className='mx-8'>
-          <p>
-            Echolight is an action-based roguelike game where you play as Áine, a princess from an ancient clan, trying to restore the power of the fallen gods of day and night, whose 
-            forces have spread to the local flora and fauna. Developed entirely independently over two semesters, this project involved over 60 students from the Media Informatics and 
-            Interactive Entertainment program at Mittweida University. From the initial ideas and concepts to the final assets, everything was planned, discussed, and implemented by the 
-            students themselves in a self-organized manner.
-          </p>
+        <div className='mx-8 max-sm:mx-0 text-justify 2xl:text-[1.5rem]'>
+          <div className='flex items-center max-md:flex-col gap-4'>
+            <p>
+              Echolight is an action-based roguelike game where you play as Áine, a princess from an ancient clan, trying to restore the power of the fallen gods of day and night, whose 
+              forces have spread to the local flora and fauna. Developed entirely independently over two semesters, this project involved over 60 students from the Media Informatics and 
+              Interactive Entertainment program at Mittweida University. From the initial ideas and concepts to the final assets, everything was planned, discussed, and implemented by the 
+              students themselves in a self-organized manner.
+            </p>
+            <div className='p-2 border-2 border-[#6751b9] rounded-2xl w-[33%] max-md:w-[90%] max-sm:w-full h-fit flex-none'>
+              <Image src={'/assets/projects/Echolight1.jpg'} alt='Echolight1' width={600} height={350} className='rounded-lg'/>
+            </div>
+          </div>
         </div>
-        <h5 className='text-2xl font-semibold my-12 max-md:text-xl max-md:my-8'>My Role</h5>
-        <div className='mx-8'>
+        <h5 className='text-2xl font-semibold my-12 max-md:text-xl max-md:my-8 2xl:text-4xl'>My Role</h5>
+        <div className='mx-8 max-sm:mx-0 text-justify 2xl:text-[1.5rem]'>
           <p className='mb-4'>
             As part of the six-person game design team, my main responsibilities included developing concepts for the basic gameplay experience and specific mechanics, regularly 
             documenting new decisions within the game design document, and especially conveying our vision to other teams. The latter quickly proved to be the most significant task. 
@@ -38,27 +45,32 @@ export default function Echolight()  {
             all components work together seamlessly. This required a high level of communication not only within my own team but also across features, with regular discussions about 
             introducing, changing, or removing elements.
           </p>
-          <p>
-            After completing the game concept and the subsequent decrease in required game design decisions, we transitioned to other departments. Drawing on my past experience in 
-            programming and with the Unity engine in general, I began working as part of the Tech department, where I would contribute to the tasks of my feature team. In this role, I 
-            also served as a point of contact for others on the game design team, facilitating the quick and resource-efficient implementation of new ideas into the game for testing 
-            purposes. Additionally, this position between both departments allowed me to quickly and easily test received feedback from beta tests in the game environment and develop 
-            solutions.
-          </p>
+          <div className='flex items-center max-md:flex-col gap-4'>
+            <div className='p-2 border-2 border-[#6751b9] rounded-2xl w-[33%] max-md:w-[90%] max-sm:w-full h-fit flex-none'>
+              <Image src={'/assets/projects/EcholightGIF.gif'} alt='Echolight2' width={600} height={350} className='rounded-lg'/>
+            </div>
+            <p>
+              After completing the game concept and the subsequent decrease in required game design decisions, we transitioned to other departments. Drawing on my past experience in 
+              programming and with the Unity engine in general, I began working as part of the Tech department, where I would contribute to the tasks of my feature team. In this role, I 
+              also served as a point of contact for others on the game design team, facilitating the quick and resource-efficient implementation of new ideas into the game for testing 
+              purposes. Additionally, this position between both departments allowed me to quickly and easily test received feedback from beta tests in the game environment and develop 
+              solutions.
+            </p>
+          </div>
         </div>
-        <h5 className='text-2xl font-semibold my-12 max-md:text-xl max-md:my-8'>Learned Skills</h5>
-        <div className='mx-8'>
-          <ul className='list-disc list-inside mb-8'>
-            <li className='mb-1'>Making and justifying decisions based on the essence of the game</li>
-            <li className='mb-1'>Structured documentation and dissemination of work results</li>
-            <li className='mb-1'>Recognizing, understanding, and considering requirements from other areas of work</li>
-            <li className='mb-1'>Engaging in reasoned discussions of ideas and subsequently revising and finding compromises</li>
-            <li className='mb-1'>Guiding a team with prioritization and distribution of open tasks</li>
-            <li className='mb-1'>Advanced Game development within the Unity engine</li>
+        <h5 className='text-2xl font-semibold my-12 max-md:text-xl max-md:my-8 2xl:text-4xl'>Learned Skills</h5>
+        <div className='mx-8 max-sm:mx-0 2xl:text-[1.5rem]'>
+          <ul className='list-none mb-8 ml-5'>
+            <ListItem style='mb-1'>Making and justifying decisions based on the essence of the game</ListItem>
+            <ListItem style='mb-1'>Structured documentation and dissemination of work results</ListItem>
+            <ListItem style='mb-1'>Recognizing, understanding, and considering requirements from other areas of work</ListItem>
+            <ListItem style='mb-1'>Engaging in reasoned discussions of ideas and subsequently revising and finding compromises</ListItem>
+            <ListItem style='mb-1'>Guiding a team with prioritization and distribution of open tasks</ListItem>
+            <ListItem style='mb-1'>Advanced Game development within the Unity engine</ListItem>
           </ul>
         </div>
         <hr/>
-        <p className='mt-2 mb-4'>
+        <p className='mt-2 mb-4 2xl:text-[1.5rem]'>
           <b>View the project over on <a href="https://store.steampowered.com/app/2679520/Echolight/" title="Echolight on Steam" target='_blank' className='text-[#9678ff] hover:text-[#b7a3ff] transition-colors duration-300'><u>Steam</u></a>.</b>
         </p>
       </>

@@ -11,3 +11,7 @@ body {
     background-color: #060417;
     color: white;
 }
+
+p {
+    text-size: 1rem
+}
