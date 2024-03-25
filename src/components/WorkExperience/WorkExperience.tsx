@@ -40,7 +40,7 @@ const WorkExperience = () => {
         <div onClick={slideRight} className='arrow-right max-xl:right-0 max-md:-right-4 w-8 min-[2000px]:w-16 h-8 flex min-[2000px]:h-16 items-center justify-center text-[#6751b9] rounded-xl border-solid border-2 border-[#6751b9] bg-[#130f2a] absolute top-[55%] right-[-2rem] z-20 cursor-pointer'>
           <BiArrowFromLeft className='text-3xl min-[2000px]:text-6xl font-medium'/>
         </div>
-        <div onClick={slideLeft} className='arrow-left max-xl:left-0 max-md:-left-4 w-8 min-[2000px]:w-16 h-8 flex min-[2000px]:h-16 flex items-center justify-center text-[#6751b9] rounded-xl border-solid border-2 border-[#6751b9] bg-[#130f2a] absolute top-[55%] left-[-2rem] z-20 cursor-pointer'>
+        <div onClick={slideLeft} className='arrow-left max-xl:left-0 max-md:-left-4 w-8 min-[2000px]:w-16 h-8 flex min-[2000px]:h-16 items-center justify-center text-[#6751b9] rounded-xl border-solid border-2 border-[#6751b9] bg-[#130f2a] absolute top-[55%] left-[-2rem] z-20 cursor-pointer'>
           <BiArrowFromRight className='text-3xl min-[2000px]:text-6xl font-medium'/>
         </div>
         <Slider ref={sliderRef} {...settings}>

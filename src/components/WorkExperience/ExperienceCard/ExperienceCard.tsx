@@ -7,6 +7,7 @@ type Detail = {
   responsibilities: string[]
   picture: string,
   skills: string[],
+  imgLinks: string[],
   link: ReactNode
 }
 
@@ -38,9 +39,9 @@ const ExperienceCard = ({details}: Details) => {
         <Image src={details.picture} alt={details.title} width={854} height={480} className='w-full h-auto rounded-xl'/>
       </div>
       <div className='flex flex-row justify-center items-center max-lg:gap-2 gap-6 mt-2'>
-        {details.skills.map(skill => (
+        {details.skills.map((skill, i) => (
           <div key={`${details.title}${skill}`} className='p-1 border-2 border-[#6751b9] rounded-xl max-sm:w-[15%] max-md:w-[10%] max-lg:w-[15%] w-[10%]'>
-            <Image src={skill} alt={skill} width={100} height={100} className='w-full h-auto rounded-lg'/>
+            <Image src={details.imgLinks[i] ?? ""} title={skill} alt={skill} width={100} height={100} className='w-full h-auto rounded-lg'/>
           </div>
         ))}
       </div>

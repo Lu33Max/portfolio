@@ -43,7 +43,9 @@ export const SKILLS: Skill[] = [
         title: "Soft Skills",
         icon: <BiChat className='w-10 h-auto max-lg:w-8 object-contain text-[#7c5fe6]'/>,
         skills: [
-            
+            { skill: "Problem-solving", percentage: "80%" },
+            { skill: "Collaboration", percentage: "85%" },
+            { skill: "Attention to detail", percentage: "75%" }
         ]
     },
 ]
@@ -54,6 +56,7 @@ type Experience = {
     responsibilities: string[],
     picture: string,
     skills:string[],
+    imgLinks: string[]
     link: ReactNode
 }
 
@@ -68,7 +71,8 @@ export const EXPERIENCE: Experience[] = [
             "Hinder your competitors and be the first player to defeat the omen and receive all the fame and honor for yourself"
         ],
         picture: "/assets/projects/TwistedRealms1.png",
-        skills: ["/assets/images/writing.png","/assets/images/idea.png","/assets/images/combat.png","/assets/images/unreal_engine_logo.png","/assets/images/painting.png"],
+        skills: ["Documentation","Conception","Combat Design","Unreal Engine","Asset Creation"],
+        imgLinks: ["/assets/images/writing.png","/assets/images/idea.png","/assets/images/combat.png","/assets/images/unreal_engine_logo.png","/assets/images/painting.png"],
         link: <a title="Game Design Document" download href="\assets\documents\Twisted_Realms_GDD.pdf"><BiDownload className="text-5xl transition-all ease-in-out hover:translate-y-[-0.5rem]"/></a>
     },
     {
@@ -81,7 +85,8 @@ export const EXPERIENCE: Experience[] = [
             "A Procedurally generated world makes each run feel refreshing, offering new routes to take and items to collect"
         ],
         picture: "/assets/projects/Echolight1.jpg",
-        skills: ["/assets/images/writing.png","/assets/images/combat.png","/assets/images/unity_logo.png","/assets/images/CSharp_logo.png","/assets/images/steam_logo.png"],
+        skills: ["Documentation","Conception","Combat Design","Unity","C# Programming"],
+        imgLinks: ["/assets/images/writing.png","/assets/images/idea.png","/assets/images/combat.png","/assets/images/unity_logo.png","/assets/images/CSharp_logo.png"],
         link: <a href="https://store.steampowered.com/app/2679520/Echolight/" title="Echolight on Steam" target="_blank"><BiLogoSteam className="text-6xl transition-all ease-in-out hover:translate-y-[-0.5rem]"/></a>
     },
     {
@@ -94,7 +99,8 @@ export const EXPERIENCE: Experience[] = [
             "Rearrange the room layout and switch between 2D and 3D view to gather a new perspective on your surroundings and discover secrets"
         ],
         picture: "/assets/projects/Slidescape1.png",
-        skills: ["/assets/images/writing.png","/assets/images/painting.png","/assets/images/idea.png"],
+        skills: ["Documentation","Conception","Asset Creation"],
+        imgLinks: ["/assets/images/writing.png","/assets/images/idea.png","/assets/images/painting.png"],
         link: <a title="Game Design Document" download href="\assets\documents\Slidescape_GDD.pdf"><BiDownload className="text-5xl transition-all ease-in-out hover:translate-y-[-0.5rem]"/></a>
     },
     /*{
@@ -120,7 +126,8 @@ export const EXPERIENCE: Experience[] = [
             "Lots of customization options to design your perfect battle conditions"
         ],
         picture: "/assets/projects/SuperPong1.png",
-        skills: ["/assets/images/writing.png","/assets/images/idea.png","/assets/images/unity_logo.png","/assets/images/CSharp_logo.png"],
+        skills: ["Documentation","Conception","Unity","C# Programming"],
+        imgLinks: ["/assets/images/writing.png","/assets/images/idea.png","/assets/images/unity_logo.png","/assets/images/CSharp_logo.png"],
         link: <a href="https://github.com/Lu33Max/super-pong" title="Project Files on GitHub" target="_blank"><BiLogoGithub className="text-6xl transition-all ease-in-out hover:translate-y-[-0.5rem]"/></a>
     },
     {
@@ -133,7 +140,8 @@ export const EXPERIENCE: Experience[] = [
             "Cleverly use and combine all your collected items in dungeons to solve puzzles and defeat tricky bosses"
         ],
         picture: "/assets/projects/Avalken1.png",
-        skills: ["/assets/images/writing.png","/assets/images/idea.png","/assets/images/java_logo.png","/assets/images/intellij_logo.png"],
+        skills: ["Documentation","Conception","Java Programming","IntelliJ"],
+        imgLinks: ["/assets/images/writing.png","/assets/images/idea.png","/assets/images/java_logo.png","/assets/images/intellij_logo.png"],
         link: <a href="https://github.com/Lu33Max/avalken" title="Project Files on GitHub" target="_blank"><BiLogoGithub className="text-6xl transition-all ease-in-out hover:translate-y-[-0.5rem]"/></a>
     },
 ]
