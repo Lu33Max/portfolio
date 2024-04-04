@@ -7,6 +7,7 @@ import AboutMe from "~/components/AboutMe/AboutMe";
 
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import OtherExperience from "~/components/WorkExperience/OtherExperience";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <AboutMe/>
         <Skills/>
         <WorkExperience/>
+        <OtherExperience/>
         <ContactMe/>
       </>
     </>
