@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import React from 'react'
 import ListItem from '~/components/Utilities/ListItem'
 import Highlight from '~/components/Utilities/highlight'
@@ -27,11 +28,19 @@ export default function Avalken()  {
             These temples contain puzzles that can only be solved through the correct use of items, as well as battles against difficult enemies. The game is considered completed when all 
             dungeons have been cleared.
           </p>
-          <p>
+          <p className='mb-4'>
             In the two-player mode, players can choose from a selection of temples specifically created for this mode. These temples include new puzzles that can only be solved through 
             cooperation between both players. The levelling system is disabled for this mode. The time taken to complete a temple is saved and is intended to encourage players to 
             continually surpass their best time.
           </p>
+          <div className='flex items-center justify-center max-md:flex-col gap-4 lg:gap-12 lg:mx-12'>
+            <div className='p-2 border-2 border-[#6751b9] rounded-2xl w-[50%] max-md:w-[90%] max-sm:w-full h-fit flex-none'>
+              <Image priority src={'/assets/projects/Avalken1.png'} alt='Avalken Gameplay' width={600} height={350} className='rounded-lg'/>
+            </div>
+            <div className='p-2 border-2 border-[#6751b9] rounded-2xl w-[50%] max-md:w-[90%] max-sm:w-full h-fit flex-none'>
+              <Image priority src={'/assets/projects/Avalken2.png'} alt='Avalken Shop' width={600} height={350} className='rounded-lg'/>
+            </div>
+          </div>
         </div>
         <h5 className='text-2xl font-semibold my-12 max-md:text-xl max-md:my-8 min-[2000px]:text-4xl'>Learned Skills</h5>
         <div className='mx-8 max-sm:mx-0 min-[2000px]:text-[1.5rem]'>

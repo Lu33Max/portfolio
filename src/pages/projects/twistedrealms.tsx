@@ -34,7 +34,7 @@ export default function TwistedRealms()  {
               <p>
                 Originally developed as a classic board game during the first semester of the Media Informatics program, three of the original members have now come together to digitize the 
                 project, adding revisions and previously unimplemented mechanics to the original concept with their newly acquired skills. Development and conceptualization have been ongoing 
-                for three months now, with a planned release on Steam and other platforms.
+                for four months now, with a planned release on Steam and other platforms.
               </p>
             </div>
             <div className='p-2 border-2 border-[#6751b9] rounded-2xl w-[33%] max-md:w-[90%] h-fit flex-none'>
