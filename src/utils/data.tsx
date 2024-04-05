@@ -38,6 +38,7 @@ export const SKILLS: Skill[] = [
             { skill: "Git", percentage: "90%" },
             { skill: "Blender", percentage: "75%" },
             { skill: "Photoshop", percentage: "60%" },
+            { skill: "Office", percentage: "70%"}
         ]
     },
     {
@@ -112,7 +113,7 @@ export const EXPERIENCE: Experience[] = [
             "A new twist on the classic pong gameplay to make a jump into the current decade",
             "Battle against friends or the AI on a number different stages, each with unique properties",
             "Collect various balls and use them in strategic situations or to surprise your opponent and gain the overhand in battle",
-            "The first player to deplete their oponents HP emerges victorious",
+            "The first player to deplete their opponents HP emerges victorious",
             "Lots of customization options to design your perfect battle conditions"
         ],
         picture: "/assets/projects/SuperPong1.png",

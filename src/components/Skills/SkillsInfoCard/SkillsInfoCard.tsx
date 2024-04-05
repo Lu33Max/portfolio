@@ -12,7 +12,7 @@ type InfoCardArgs = {
 
 const SkillsInfoCard = ({ heading, skills }: InfoCardArgs) => {
   return (
-    <div className='skills-info-card min-h-[23rem] rounded-xl border-2 border-solid border-[#6751b9] bg-[rgba(22, 17, 47, 0.4)] backdrop-blur-sm'>
+    <div className='skills-info-card min-h-[24rem] min-[2000px]:min-h-[26.5rem] rounded-xl border-2 border-solid border-[#6751b9] bg-[rgba(22, 17, 47, 0.4)] backdrop-blur-sm'>
       <h6 className='text-lg min-[2000px]:text-3xl max-lg:text-[1.1rem] font-medium px-8 py-3 bg-gradient-to-t from-[#ac96ff] to-[#7c5fe6] text-transparent bg-clip-text border-b-2 border-solid border-b-[#6751b9]'>{heading}</h6>
       <div className='skills-info-content p-8 max-lg:p-6'>
         {skills.map((item, i) => (
