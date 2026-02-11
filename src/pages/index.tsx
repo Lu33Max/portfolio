@@ -2,7 +2,7 @@ import Head from "next/head";
 import Hero from "~/components/Hero/Hero";
 import Skills from "~/components/Skills/Skills";
 import WorkExperience from "~/components/WorkExperience/WorkExperience";
-import ContactMe from "~/components/ContectMe/ContactMe";
+import ContactMe from "~/components/ContactMe/ContactMe";
 import AboutMe from "~/components/AboutMe/AboutMe";
 
 import "slick-carousel/slick/slick.css"

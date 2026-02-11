@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { title } from "process";
 import { type ReactNode } from "react";
 import {
   BiChat,
@@ -10,7 +9,6 @@ import {
   BiLogoSteam,
   BiPencil,
 } from "react-icons/bi";
-import { date } from "zod";
 
 type Skill = {
   title: string;
@@ -82,6 +80,48 @@ type Experience = {
 };
 
 export const EXPERIENCE: Experience[] = [
+  {
+    title: "Karxel",
+    date: "Mar 2024 - today",
+    responsibilities: [
+      "Competitive Team-based Multiplayer Strategy Game featuring online lobby system",
+      "Work together with your team members to strategically position your units on the grid",
+      "Move, Attack, Heal and Shield with your units and ruin your enemies next move",
+      "Various maps with interactive features and timed events to keep suspense in the battle till the last moment",
+      "Allows for creation of public and private lobbies to play with friends or strangers",
+    ],
+    picture: "/assets/projects/KarxelBanner.png",
+    skills: [
+      "Documentation",
+      "Conception",
+      "Combat Design",
+      "Unity Engine",
+      "Asset Creation",
+      "Networking",
+    ],
+    imgLinks: [
+      "/assets/images/writing.png",
+      "/assets/images/idea.png",
+      "/assets/images/combat.png",
+      "/assets/images/unity_logo.png",
+      "/assets/images/painting.png",
+      "/assets/images/networking.png",
+    ],
+    link: (
+      <a
+        title="Karxel on itch.io"
+        href="https://lu33max.itch.io/karxel?password=Jz8$yS3jUY5hXelt"
+      >
+        <Image
+          src={"/assets/images/itch_logo.png"}
+          alt="Itch Logo"
+          width={50}
+          height={50}
+          className="text-5xl transition-all ease-in-out hover:translate-y-[-0.5rem]"
+        />
+      </a>
+    ),
+  },
   {
     title: "Twisted Realms",
     date: "Nov 2023 - today",

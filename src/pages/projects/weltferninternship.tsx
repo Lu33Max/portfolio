@@ -1,4 +1,3 @@
-import React from "react";
 import Head from "next/head";
 import Highlight from "~/components/Utilities/highlight";
 import ListItem from "~/components/Utilities/ListItem";
@@ -9,7 +8,7 @@ export default function Weltfern() {
     <>
       <Head>
         <title>weltfern</title>
-        <meta name="description" content="Avalken" />
+        <meta name="description" content="Weltfern Internship" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <>
@@ -64,7 +63,7 @@ export default function Weltfern() {
             <div className="h-fit w-[33%] flex-none rounded-2xl border-2 border-[#6751b9] p-2 max-md:w-[90%]">
               <Image
                 src={"/assets/projects/assemble.png"}
-                alt="TwistedRealms2"
+                alt="assemble"
                 width={600}
                 height={350}
                 className="rounded-lg"
