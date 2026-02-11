@@ -54,7 +54,7 @@ export default function Echolight() {
           or removing elements.
         </Paragraph>,
         <HorizontalContainer>
-          <ContentImage source="EcholightGIF.gif" alt="Echolight Combat" />
+          <ContentImage source="EcholightGifNew.gif" alt="Echolight Combat" />
           <p>
             After completing the game concept and the subsequent decrease in
             required game design decisions, we transitioned to other

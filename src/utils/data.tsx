@@ -124,40 +124,6 @@ export const EXPERIENCE: Experience[] = [
     ),
   },
   {
-    title: "Twisted Realms",
-    date: "Nov 2023 - today",
-    responsibilities: [
-      "Competitive Multiplayer Board Game focused on PvPvE combat",
-      "Slay enemies, collect items, level up and build your character to banish the evil from the world",
-      "Take control over one of six different hunters, offering different playstyles and strategies",
-      "Hinder your competitors and be the first player to defeat the omen and receive all the fame and honor for yourself",
-    ],
-    picture: "/assets/projects/TwistedRealms1.png",
-    skills: [
-      "Documentation",
-      "Conception",
-      "Combat Design",
-      "Unreal Engine",
-      "Asset Creation",
-    ],
-    imgLinks: [
-      "/assets/images/writing.png",
-      "/assets/images/idea.png",
-      "/assets/images/combat.png",
-      "/assets/images/unreal_engine_logo.png",
-      "/assets/images/painting.png",
-    ],
-    link: (
-      <a
-        title="Game Design Document (German)"
-        download
-        href="\assets\documents\Twisted_Realms_GDD.pdf"
-      >
-        <BiDownload className="text-5xl transition-all ease-in-out hover:translate-y-[-0.5rem]" />
-      </a>
-    ),
-  },
-  {
     title: "Echolight",
     date: "Feb 2023 - Feb 2024",
     responsibilities: [
@@ -188,6 +154,40 @@ export const EXPERIENCE: Experience[] = [
         target="_blank"
       >
         <BiLogoSteam className="text-6xl transition-all ease-in-out hover:translate-y-[-0.5rem]" />
+      </a>
+    ),
+  },
+  {
+    title: "Twisted Realms",
+    date: "Nov 2023 - today",
+    responsibilities: [
+      "Competitive Multiplayer Board Game focused on PvPvE combat",
+      "Slay enemies, collect items, level up and build your character to banish the evil from the world",
+      "Take control over one of six different hunters, offering different playstyles and strategies",
+      "Hinder your competitors and be the first player to defeat the omen and receive all the fame and honor for yourself",
+    ],
+    picture: "/assets/projects/TwistedRealms1.png",
+    skills: [
+      "Documentation",
+      "Conception",
+      "Combat Design",
+      "Unreal Engine",
+      "Asset Creation",
+    ],
+    imgLinks: [
+      "/assets/images/writing.png",
+      "/assets/images/idea.png",
+      "/assets/images/combat.png",
+      "/assets/images/unreal_engine_logo.png",
+      "/assets/images/painting.png",
+    ],
+    link: (
+      <a
+        title="Game Design Document (German)"
+        download
+        href="\assets\documents\Twisted_Realms_GDD.pdf"
+      >
+        <BiDownload className="text-5xl transition-all ease-in-out hover:translate-y-[-0.5rem]" />
       </a>
     ),
   },
