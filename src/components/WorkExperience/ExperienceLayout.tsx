@@ -104,7 +104,7 @@ export function ContentImage({
   height?: number;
 }) {
   return (
-    <div className="h-auto max-w-[33%] flex-none rounded-2xl border-2 border-[#6751b9] p-2 max-md:w-[90%] max-sm:w-full">
+    <div className="h-auto max-w-[33%] flex-none rounded-2xl border-2 border-[#6751b9] p-2 max-md:w-[90%] max-md:max-w-full max-sm:w-full">
       <Image
         src={`/assets/projects/${source}`}
         alt={alt}
