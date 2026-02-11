@@ -27,8 +27,8 @@ export const SKILLS: Skill[] = [
     ),
     skills: [
       { skill: "Unity", percentage: "90%" },
-      { skill: "Unreal Engine", percentage: "70%" },
-      { skill: "Godot", percentage: "50%" },
+      { skill: "Unreal Engine", percentage: "50%" },
+      { skill: "Godot", percentage: "70%" },
     ],
   },
   {
@@ -49,7 +49,7 @@ export const SKILLS: Skill[] = [
       <BiPencil className="h-auto w-10 object-contain text-[#7c5fe6] max-lg:w-8" />
     ),
     skills: [
-      { skill: "Git", percentage: "90%" },
+      { skill: "Git", percentage: "95%" },
       { skill: "Blender", percentage: "75%" },
       { skill: "Photoshop", percentage: "60%" },
       { skill: "Office", percentage: "70%" },
@@ -61,9 +61,9 @@ export const SKILLS: Skill[] = [
       <BiChat className="h-auto w-10 object-contain text-[#7c5fe6] max-lg:w-8" />
     ),
     skills: [
-      { skill: "Problem-solving", percentage: "90%" },
-      { skill: "Collaboration", percentage: "85%" },
-      { skill: "Attention to detail", percentage: "75%" },
+      { skill: "Problem-solving", percentage: "85%" },
+      { skill: "Collaboration", percentage: "80%" },
+      { skill: "Attention to detail", percentage: "95%" },
     ],
   },
 ];
@@ -111,6 +111,7 @@ export const EXPERIENCE: Experience[] = [
       <a
         title="Karxel on itch.io"
         href="https://lu33max.itch.io/karxel?password=Jz8$yS3jUY5hXelt"
+        target="_blank"
       >
         <Image
           src={"/assets/images/itch_logo.png"}
@@ -217,7 +218,7 @@ export const EXPERIENCE: Experience[] = [
     ),
   },
   {
-    title: "Super Pong",
+    title: "SuperPong",
     date: "Mar 2023 - Aug 2023",
     responsibilities: [
       "A new twist on the classic pong gameplay to make a jump into the current decade",
