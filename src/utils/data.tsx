@@ -276,6 +276,49 @@ export const EXPERIENCE: Experience[] = [
 
 export const OTHER_EXPERIENCE: Experience[] = [
   {
+    title: "domeba",
+    date: "Aug 2024 - Jul 2025",
+    responsibilities: [
+      "Software Developer of iManSys - Interface for companies to track their legal compliance measurements and worker's safety regulations",
+      "Heavy reliance on external legal consulting companies to help the setup process behind iManSys for each individual company",
+      "Building an in-house database of legal documents from all over the world",
+      "Unifying a multitude of data formats and formatting styles for structured storage within a singular data-structure",
+      "Creating a .NET based API to work with existing company products and following internal development and review cycles",
+      "Working with libraries for data extraction from HTML, XML, JSON and PDF",
+      "Learning the basics of Machine Learning with ML.NET and training new models for text classification and labeling",
+    ],
+    picture: "/assets/projects/DomebaPressImage.webp",
+    skills: [
+      "Team-Lead",
+      "Documentation",
+      "C# programming",
+      ".NET framework",
+      "Angular Frontend",
+    ],
+    imgLinks: [
+      "/assets/images/people.png",
+      "/assets/images/writing.png",
+      "/assets/images/CSharp_logo.png",
+      "/assets/images/dotnet_logo.png",
+      "/assets/images/angular_logo.webp",
+    ],
+    link: (
+      <a
+        href="https://www.domeba.com/pressemitteilung-hochschule-mittweida/"
+        title="domeba Press Release"
+        target="_blank"
+      >
+        <Image
+          src={"/assets/images/DomebaLogo.png"}
+          alt="Domeba Logo"
+          width={50}
+          height={50}
+          className="text-5xl transition-all ease-in-out hover:translate-y-[-0.5rem]"
+        />
+      </a>
+    ),
+  },
+  {
     title: "weltfern Internship",
     date: "May 2024 - Aug 2024",
     responsibilities: [
