@@ -284,8 +284,7 @@ export const OTHER_EXPERIENCE: Experience[] = [
       "Building an in-house database of legal documents from all over the world",
       "Unifying a multitude of data formats and formatting styles for structured storage within a singular data-structure",
       "Creating a .NET based API to work with existing company products and following internal development and review cycles",
-      "Working with libraries for data extraction from HTML, XML, JSON and PDF",
-      "Learning the basics of Machine Learning with ML.NET and training new models for text classification and labeling",
+      "Learning the basics of Machine Learning with ML.NET",
     ],
     picture: "/assets/projects/DomebaPressImage.webp",
     skills: [
@@ -309,7 +308,7 @@ export const OTHER_EXPERIENCE: Experience[] = [
         target="_blank"
       >
         <Image
-          src={"/assets/images/DomebaLogo.png"}
+          src={"/assets/images/domebaLogo.png"}
           alt="Domeba Logo"
           width={50}
           height={50}
